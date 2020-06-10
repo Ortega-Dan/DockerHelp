@@ -1,5 +1,11 @@
 # DockerHelp
 
+Check Log Containers:
+sudo docker logs -f [CONTAINER ID]
+
+Stop Containers:
+sudo docker stop [CONTAINER ID]
+
 
 See and remove Containers:
 sudo docker ps -a
