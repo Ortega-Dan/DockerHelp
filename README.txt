@@ -1,12 +1,12 @@
 # DockerHelp
 
 
-Containers:
+See and remove Containers:
 sudo docker ps -a
 sudo docker rm [CONTAINER ID]
 
 
-Images:
+See and remove Images:
 sudo docker images
 sudo docker rm [IMAGE ID]
 
