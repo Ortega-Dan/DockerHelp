@@ -19,5 +19,5 @@ sudo docker rm [CONTAINER ID]
 
 See and remove Images:
 sudo docker images
-sudo docker rm [IMAGE ID]
+sudo docker image rm [IMAGE ID]
 
