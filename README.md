@@ -1,27 +1,35 @@
 # DockerHelp
+(Some Linux require running all the following commands as sudo)
 
-### Pull/download container images from web:
+<br>
+
+### Pull/download Container Images from Web:
 ```docker pull [IMAGE URL WITHOUT PROTOCOL]```
 
-### Run first time:
+### Run First Time:
 ```docker run [OPTIONS REQUIRED BY CONTAINER] [IMAGE URL WITHOUT PROTOCOL]```
 
 
-### List and remove Containers:
-```sudo docker ps -a```\
-```sudo docker rm [CONTAINER ID]```
+### List Containers:
+```docker ps -a```
+
 
 ### Start Containers:
-```sudo docker start [CONTAINER ID]```
+```docker start [CONTAINER ID]```
 
-### Check container logs:
-```sudo docker logs -f [CONTAINER ID]```
+### Check Container Logs:
+```docker logs -f [CONTAINER ID]```
 
 ### Stop Containers:
-```sudo docker stop [CONTAINER ID]```
+```docker stop [CONTAINER ID]```
 
 
-### List and remove Images:
-```sudo docker images```\
-```sudo docker image rm [IMAGE ID]```
+### List Images:
+```docker images```
 
+
+### Remove Containers:
+```docker rm [CONTAINER ID]```
+
+### Remove Images:
+```docker image rm [IMAGE ID]```
