@@ -8,11 +8,10 @@
 
 ### Run First Time:
 ```docker run [OPTIONS REQUIRED BY CONTAINER] [IMAGE URL WITHOUT PROTOCOL]```
-
-
+___
+## Containers
 ### List Containers:
 ```docker ps -a```
-
 
 ### Start Containers:
 ```docker start [CONTAINER ID]```
@@ -23,13 +22,12 @@
 ### Stop Containers:
 ```docker stop [CONTAINER ID]```
 
-
-### List Images:
-```docker images```
-
-
 ### Remove Containers:
 ```docker rm [CONTAINER ID]```
+___
+## Images
+### List Images:
+```docker images```
 
 ### Remove Images:
 ```docker image rm [IMAGE ID]```
